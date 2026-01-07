@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* shared style */
+
+.font-open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.color-orange {
+    color: #FD6E0A;
+}
+
+.btn {
+    padding: 18px 35px;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-right: 30px;
+}
+
+.section-heading {
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section-heading h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.section-heading p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+
+/* main style */
+
+header {
+    background-color: #FFF8F3;
+    background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: 23px 38px, bottom right;
+    padding-top: 50px;
+}
+
+nav {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo h2 {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav ul {
+    display: flex;
+    gap: 51px;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #474747;
+}
+
+#banner {
+    margin: 46px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner .banner-content {
+    max-width: 585px;
+}
+
+#banner .banner-content h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+
+#banner .banner-content h1 {
+    font-size: 85px;
+    color: #181818;
+}
+
+#banner .banner-content p {
+   font-size: 18px;
+   line-height: 30px;
+   color: #757575; 
+   margin-bottom: 30px;
+}
+
+#banner .banner-image img {
+    max-width: 585px;
+    vertical-align: middle;
+}
+
+#about {
+    padding-top:130px;
+}
+
+#about .about-container {
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 131px 0px;
+    text-align: center;
+}
+
+#about .about-info {
+    max-width: 782px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#about .about-container .info-card p, h4 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+
