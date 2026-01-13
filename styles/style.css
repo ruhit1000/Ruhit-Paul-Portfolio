@@ -110,10 +110,10 @@ nav ul a {
 }
 
 #banner .banner-content p {
-   font-size: 18px;
-   line-height: 30px;
-   color: #757575; 
-   margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
 }
 
 #banner .banner-image img {
@@ -121,8 +121,10 @@ nav ul a {
     vertical-align: middle;
 }
 
-#about, #skills, #resume {
-    padding-top:130px;
+#about,
+#skills,
+#resume {
+    padding-top: 130px;
 }
 
 #about .about-container {
@@ -142,7 +144,8 @@ nav ul a {
     justify-content: space-between;
 }
 
-#about .about-container .info-card p, h4 {
+#about .about-container .info-card p,
+h4 {
     font-size: 20px;
     line-height: 30px;
     color: #757575;
@@ -162,7 +165,7 @@ nav ul a {
 #skills .skills-container .skill-box .skill-card {
     border-radius: 5px;
     box-shadow: 0 6px 50px 0 #0000002f;
-    max-width:267px;
+    max-width: 267px;
     padding: 30px;
     margin-top: 20px;
 }
@@ -271,4 +274,95 @@ footer .footer-container {
     border-radius: 5px;
 
     color: #757575;
+}
+
+.hide {
+    display: none !important;
+}
+
+/* responsive layout for smaller device */
+@media screen and (max-width: 576px) {
+
+    #skills .skills-container,
+    #about .about-container,
+    #resume .resume-container,
+    footer .footer-container,
+    nav {
+        width: 95%;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    header {
+        background-color: #FFF8F3;
+        background: url(../images/header_bg.png), #FFF8F3;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        padding-top: 20px;
+    }
+
+    .banner-image img {
+        width: 100%;
+    }
+
+    #banner {
+        margin: 46px 38px 0 30px;
+        align-items: center;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
+    .section-heading h2 {
+        font-size: 30px;
+    }
+
+    #about,
+    #skills,
+    #resume {
+        padding-top: 60px;
+    }
+
+    #about .about-container {
+        padding: 50px 10px;
+    }
+
+    #skills .skills-container .skill-box,
+    #about .about-info,
+    #resume .resume-container,
+    footer .footer-container,
+    nav,
+    #banner {
+        flex-direction: column;
+    }
+
+    #about .about-info {
+        gap: 30px;
+    }
+
+    #skills .skills-container .skill-box .skill-card {
+        max-width: 100%;
+        margin-top: 0;
+    }
+
+    #resume .resume-container {
+        margin: 50px auto 0;
+    }
+
+    footer {
+        padding: 70px 0;
+    }
+
+    footer .footer-container {
+        gap: 70px;
+    }
+
+    .footer-container form input[type="text"],
+    .footer-container form textarea {
+        width: 85%;
+    }
 }
